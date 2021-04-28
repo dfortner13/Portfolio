@@ -1,0 +1,64 @@
+button, input, select, textarea {
+	font-family: inherit;
+	font-size: 100%
+}
+input, textarea, select {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+label {
+	display: block;
+}
+input[type="checkbox"] + label {
+	display: inline;
+}
+fieldset {
+	border-width: 0;
+	padding: 0;
+}
+input[type="text"], input[type="tel"], input[type="email"] {
+	width: 90%;
+	margin: .2em auto .8em auto;
+}
+#zip { max-width: 10em; }
+select, fieldset {
+	margin: .2em auto .8em auto;
+}
+legend {
+	margin-left: -.1em;
+	font-weight: bold;
+}
+body{
+    color: #343434;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #EFE7B4;
+    
+}
+h1{
+    font-size: 70px;
+    line-height: 1;
+    text-shadow: 2px 2px #fff;
+	color: #00648b;
+}
+h2{
+    font-size: 30px;
+}
+h1, h2{
+    font-family: 'Oleo Script', cursive;
+    font-weight: 400;
+    
+}
+footer{
+    background:#00648b;
+    color:#F7FFF7 ;
+}
+
+
+@media screen and (max-width: 749px){
+    h1{
+        font-size: 45px;
+    }
+}
+
